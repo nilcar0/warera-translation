@@ -16,7 +16,7 @@ msgstr ""
 #. placeholder {0}: user.data.mute.reason
 #: src/components/_user/user/UserHeader.tsx:411
 msgid " - Reason: {0}"
-msgstr " - Ok: {0}"
+msgstr " - Indok: {0}"
 
 #: src/components/_user/premium/PremiumActions.tsx:71
 msgid " Gift a sub"
@@ -177,7 +177,7 @@ msgstr "<0/> védekezett itt: <1/>"
 #: src/components/_user/notification/notification.frontConfig.tsx:407
 #: src/components/_user/notification/notification.frontConfig.tsx:1298
 msgid "<0/> donated <1>{0}</1> to <2/>"
-msgstr "<0/> adományozott <1>{0}</1> összegben neki: <2/>"
+msgstr "<0/> <1>{0}</1>-t adományozott ennek: <2/>"
 
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:547
@@ -224,7 +224,7 @@ msgstr "<0/> elkezdődött! Kezdődjenek a csaták!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1034
 msgid "<0/> is attacking <1/> in <2/>"
-msgstr "<0/> támadja <1/> régiót itt: <2/>"
+msgstr "<0/> támadja <1/>-t itt: <2/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1020
 msgid "<0/> is attacking your country in <1/>"
@@ -232,7 +232,7 @@ msgstr "<0/> támadja az országodat itt: <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1049
 msgid "<0/> is revolting in <1/> against your country"
-msgstr "<0/> lázadást indított <1/> területén az országod ellen"
+msgstr "<0/> lázad <1/>-ban az országod ellen"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:16
 msgid "<0/> joined the conversation"
@@ -240,7 +240,7 @@ msgstr "<0/> csatlakozott a beszélgetéshez"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:687
 msgid "<0/> joined the game with your referral link!"
-msgstr "<0/> csatlakozott a játékhoz a meghívó linkedre!"
+msgstr "<0/> csatlakozott a játékhoz a meghívó linkeddel!"
 
 #. placeholder {0}: data.wage
 #: src/components/_user/notification/notification.frontConfig.tsx:516
@@ -249,12 +249,12 @@ msgstr "<0/> csatlakozott a cégedhez, <1/>, <2>{0}</2> fizetésért"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:34
 msgid "<0/> kicked <1/> from the conversation"
-msgstr "<0/> eltávolította <1/> játékost a beszélgetésből"
+msgstr "<0/> eltávolította <1/>-t a beszélgetésből"
 
 #. placeholder {0}: data.company && <CompanyNameById companyId={data.company} />
 #: src/components/_user/notification/notification.frontConfig.tsx:532
 msgid "<0/> left his job in your company {0}"
-msgstr "<0/> otthagyta az állását a cégednél: {0}"
+msgstr "<0/> otthagyta az állását a cégednél {0}"
 
 #: src/components/_political/message/systemMessage.frontConfig.tsx:25
 msgid "<0/> left the conversation"
@@ -262,11 +262,11 @@ msgstr "<0/> elhagyta a beszélgetést"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:902
 msgid "<0/> liked your article <1/>"
-msgstr "<0/> kedvelte a cikkedet: <1/>"
+msgstr "<0/> kedvelte a cikkedet <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:965
 msgid "<0/> liked your message <1/>"
-msgstr "<0/> kedvelte az üzenetedet: <1/>"
+msgstr "<0/> kedvelte az üzenetedet <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1312
 msgid "<0/> mentioned you in a message <1/>"
@@ -274,7 +274,7 @@ msgstr "<0/> megemlített egy üzenetben <1/>"
 
 #: src/components/_military/war/WarItem.tsx:115
 msgid "<0/> Priority ends in <1/>"
-msgstr "<0/> Prioritás lejár: <1/>"
+msgstr "<0/> Prioritás lejár <1/>"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:886
 msgid "<0/> published a new article"
@@ -308,7 +308,7 @@ msgstr "<0/> békét szeretne kötni az országoddal"
 #. placeholder {0}: ts[data.governmentRole]
 #: src/components/_user/notification/notification.frontConfig.tsx:664
 msgid "<0/> was nominated as <1>{0}</1>"
-msgstr "<0/> jelölve lett mint <1>{0}</1>"
+msgstr "<0/> jelölték mint <1>{0}</1>"
 
 #. placeholder {0}: data.roundNumber
 #: src/components/_political/message/systemMessage.frontConfig.tsx:55
@@ -328,12 +328,12 @@ msgstr "<0/> megnyerte az előválasztást itt: <1/>, és most indulhat az elnö
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:782
 msgid "<0/> won the round <1>#{0}</1> in <2/>"
-msgstr "<0/> megnyerte a(z) <1>#{0}</1> kört itt: <2/>"
+msgstr "<0/> megnyerte a(z) <1>#{0}</1> kört itt <2/>"
 
 #. placeholder {0}: data.roundNumber
 #: src/components/_user/notification/notification.frontConfig.tsx:788
 msgid "<0/> won the round <1>#{0}</1> in <2/>!"
-msgstr "<0/> megnyerte a(z) <1>#{0}</1> kört itt: <2/>!"
+msgstr "<0/> megnyerte a(z) <1>#{0}</1> kört itt <2/>!"
 
 #: src/components/_user/user/UserHeader.tsx:278
 msgid "<0/><1>Buff</1> ends <2/>"
@@ -349,25 +349,25 @@ msgstr "<0/>Utolsó bejelentkezés: <1><2/></1>"
 
 #: src/pages/war/[warId]/index.tsx:55
 msgid "<0/>Priority ends in <1/>"
-msgstr "<0/>Prioritás lejár: <1/>"
+msgstr "<0/>Prioritás lejár <1/>"
 
 #. placeholder {0}: companiesIds?.length ?? 0
 #. placeholder {1}: companiesLimit ?? 99
 #: src/components/_economy/company/CompanyList.tsx:101
 msgid "<0>{0}/{1}</0> Companies"
-msgstr "<0>{0}/{1}</0> Vállalat"
+msgstr "<0>{0}/{1}</0> Vállalatok"
 
 #. placeholder {0}: totalWorkersCount.data ?? 0
 #. placeholder {1}: managementLimit ?? 99
 #: src/components/_economy/company/CompanyList.tsx:117
 #: src/components/_economy/workOffer/WorkersLimit.tsx:24
 msgid "<0>{0}/{1}</0> Workers"
-msgstr "<0>{0}/{1}</0> Dolgozó"
+msgstr "<0>{0}/{1}</0> Dolgozók"
 
 #. placeholder {0}: sideBonus.muHqBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:118
 msgid "<0>{0}</0> <1/> in <2/>"
-msgstr "<0>{0}</0> <1/> itt: <2/>"
+msgstr "<0>{0}</0> <1/> itt <2/>"
 
 #. placeholder {0}: sideBonus.muOrderBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:108
@@ -387,7 +387,7 @@ msgstr "<0>{0}</0> mert <1/> nincs összekötve a fővárossal"
 #. placeholder {0}: sideBonus.lostAttackingRegionMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:176
 msgid "<0>{0}</0> because <1/> lost <2/>"
-msgstr "<0>{0}</0> mert <1/> elvesztette <2/> régiót"
+msgstr "<0>{0}</0> mert <1/> elvesztette <2/>"
 
 #. placeholder {0}: sideBonus.occupyingYourRegionsMalusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:206
@@ -409,12 +409,12 @@ msgstr "<0>{0}</0> az <1>Ellenállásból</1>"
 #. placeholder {0}: region.ethicDepositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:151
 msgid "<0>{0}</0> from agrarian ethics deposit bonus."
-msgstr "<0>{0}</0> az agrár etika lelőhely bónuszából."
+msgstr "<0>{0}</0> az Agrár etika lelőhely bónuszából."
 
 #. placeholder {0}: sideBonus.countryAlliesBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:75
 msgid "<0>{0}</0> from alliance with <1/>"
-msgstr "<0>{0}</0> a <1/> országgal való szövetségből"
+msgstr "<0>{0}</0> a(z) <1/> szövetségből"
 
 #. placeholder {0}: region.depositBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:141
@@ -434,7 +434,7 @@ msgstr "<0>{0}</0> az országodért való harcból"
 #. placeholder {0}: region.ethicSpecializationBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:131
 msgid "<0>{0}</0> from industrialist ethics specialization bonus."
-msgstr "<0>{0}</0> az Iparos etika specializációs bónuszból."
+msgstr "<0>{0}</0> az Iparos etika specializációs bónuszából."
 
 #. placeholder {0}: sideBonus.enemyEthicsBonusPercent
 #: src/components/_military/battle/BattleDamageBonuses.tsx:252
@@ -459,7 +459,7 @@ msgstr "<0>{0}</0> a Pacifista etikából (védelem)"
 #. placeholder {0}: region.strategicBonus
 #: src/components/_economy/company/RecommendedCompanyRegions.tsx:121
 msgid "<0>{0}</0> from strategic resources production bonus."
-msgstr "<0>{0}</0> a stratégiai nyersanyagok termelési bónuszából."
+msgstr "<0>{0}</0> a stratégiai erőforrások termelési bónuszából."
 
 #. placeholder {0}: gameConfig.battle.pointsToWinRound
 #: src/components/_common/RoundPoints.tsx:17
@@ -481,11 +481,11 @@ msgstr "<0>{ethicDepositBonus}</0> a(z) <1/> Agrár etika lelőhely bónuszábó
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:64
 msgid "<0>{ethicSpecializationBonus}</0> from <1/> industrialist ethics specialization bonus."
-msgstr "<0>{ethicSpecializationBonus}</0> az <1/> iparmágnás etika specializációs bónusztól."
+msgstr "<0>{ethicSpecializationBonus}</0> az <1/> Iparos etika specializációs bónuszából."
 
 #: src/components/_economy/company/CompanyProductionBonusTag.tsx:53
 msgid "<0>{strategicBonus}</0> from <1/> strategic resources production bonus."
-msgstr "<0>{strategicBonus}</0> az <1/> stratégiai erőforrások termelési bónusztól."
+msgstr "<0>{strategicBonus}</0> az <1/> stratégiai erőforrások termelési bónuszából."
 
 #: src/pages/country/[countryId]/index.tsx:399
 #: src/pages/country/[countryId]/index.tsx:448
@@ -625,7 +625,7 @@ msgstr "1★ Szakember"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:17
 msgid "1★ Trainee"
-msgstr "1★ Újonc"
+msgstr "1★ Gyakornok"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:37
 msgid "1★ Trooper"
@@ -633,7 +633,7 @@ msgstr "1★ Honvéd"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:57
 msgid "1★ Vanguard"
-msgstr "1★ Élcsapat"
+msgstr "1★ Élharcos"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:132
 msgid "1★ Vice Admiral"
@@ -669,7 +669,7 @@ msgstr "2★ Ezredes"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:118
 msgid "2★ Commodore"
-msgstr "2★ Ellentengernagy"
+msgstr "2★ Komodor"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:48
 msgid "2★ Corporal"
@@ -781,7 +781,7 @@ msgstr "3★ Ezredes"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:119
 msgid "3★ Commodore"
-msgstr "3★ Ellentengernagy"
+msgstr "3★ Komodor"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:49
 msgid "3★ Corporal"
@@ -926,7 +926,7 @@ msgstr "Szövetség elfogadása"
 #. placeholder {0}: gameConfig?.battle.allianceDamagesBonusPercent
 #: src/components/_political/law/law.frontConfig.tsx:231
 msgid "Accept an alliance with <0/> increasing your citizens damages by <1>{0}</1> when fighting for them by and reciprocally"
-msgstr "Szövetség elfogadása <0/> országgal, amely <1>{0}</1>-kal növeli a polgáraidnak okozott sebzését, amikor értük harcolnak, és fordítva"
+msgstr "Szövetség elfogadása <0/> országgal, amely <1>{0}</1>-kal növeli a polgáraid által okozott sebzést, amikor értük harcolnak, és fordítva"
 
 #: src/components/_political/law/law.frontConfig.tsx:289
 msgid "Accept or reject a region buy offer"
@@ -1427,7 +1427,7 @@ msgstr "Jelöltté válás"
 
 #: src/components/_economy/inventory/case/cases.frontConfig.tsx:37
 msgid "Better than nothing, right?"
-msgstr "Jobb mint a semmi, nem?"
+msgstr "Jobb, mint a semmi, nem?"
 
 #: src/components/_user/user/UserDropdown.tsx:247
 msgid "Block (hide content)"
@@ -1562,11 +1562,11 @@ msgstr "A CAPTCHA kihívás lejárt. Kérlek, próbáld újra."
 
 #: src/components/_user/auth/ConnectFromModal.tsx:240
 msgid "CAPTCHA challenge failed. Resetting..."
-msgstr "A CAPTCHA kihívás sikertelen. Újraindítás..."
+msgstr "A CAPTCHA kihívás meghiúsult. Újraindítás..."
 
 #: src/components/_user/auth/ConnectFromModal.tsx:248
 msgid "CAPTCHA timed out. Resetting..."
-msgstr "A CAPTCHA időtúllépés történt. Újraindítás..."
+msgstr "CAPTCHA időtúllépés. Újraindítás..."
 
 #: src/components/_user/auth/ConnectFromModal.tsx:72
 msgid "CAPTCHA verification timed out. Resetting..."
