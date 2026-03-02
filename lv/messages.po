@@ -1323,7 +1323,7 @@ msgstr "Centrisms - Nav modifikātoru"
 
 #: src/pages/user/[userId]/bans.tsx:288
 msgid "Ban History"
-msgstr ""
+msgstr "Banu Vēsture"
 
 #: src/components/_user/user/UserDropdown.tsx:264
 msgid "Ban user"
@@ -1774,7 +1774,7 @@ msgstr "Komandieris"
 #: src/components/_user/notification/notification.frontConfig.tsx:1630
 #: src/components/_user/notification/notification.frontConfig.tsx:1821
 msgid "Commission earned"
-msgstr ""
+msgstr "Komisijas maksa saņemta"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:116
 msgid "Commodore"
@@ -2150,31 +2150,31 @@ msgstr "Tumšā karte"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:120
 msgid "Deal <0>{count}</0> for allies or your country"
-msgstr "Nodari <0>{count}</0> par sabiedrotajiem vai par savu valsti"
+msgstr "Veic <0>{count}</0> par sabiedrotajiem vai par savu valsti"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:100
 msgid "Deal <0>{count}</0> in battles"
-msgstr "Nodari <0>{count}</0> kaujās"
+msgstr "Veic <0>{count}</0> kaujās"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:110
 msgid "Deal <0>{count}</0> on country/mu orders"
-msgstr "Nodari <0>{count}</0> kaujās ar valsts/MV rīkojumiem"
+msgstr "Veic <0>{count}</0> kaujās ar valsts/MV rīkojumiem"
 
 #: src/components/_user/user/MilitaryRanksInfoModal.tsx:88
 msgid "Deal damage in battles to increase your military rank and unlock attack bonuses."
-msgstr "Nodari bojājumus kaujās, lai uzlabotu savu dienesta pakāpi un iegūtu labākus uzbrukuma bonusus."
+msgstr "Veic bojājumus kaujās, lai uzlabotu savu dienesta pakāpi un iegūtu labākus uzbrukuma bonusus."
 
 #: src/components/_user/mission/mission.frontConfig.tsx:98
 msgid "Deal Damages"
-msgstr "Nodari bojājumus"
+msgstr "Veic bojājumus"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:118
 msgid "Deal Damages for Allies or Country"
-msgstr "Nodari bojājumus valsts vai sabiedroto labā"
+msgstr "Veic bojājumus valsts vai sabiedroto labā"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:108
 msgid "Deal Damages on Orders"
-msgstr "Nodari bojājumus rīkojumos"
+msgstr "Veic bojājumus rīkojumos"
 
 #: src/utils/translations.tsx:55
 msgid "Deals a fucking big lot of damages"
@@ -2976,7 +2976,7 @@ msgstr "Sist"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:90
 msgid "Hit <0>{count}</0> times in battles"
-msgstr "Kaujās iesit <0>{count}</0> reizes"
+msgstr "Kaujās veic <0>{count}</0> sitienus"
 
 #: src/components/_other/shop/ShopHeader.tsx:16
 #: src/components/_political/country/CountryHeader.tsx:57
@@ -3214,7 +3214,7 @@ msgstr "Ar nažiem nevar šaut"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:260
 msgid "Land <0>{count}</0> critical hits"
-msgstr "Nodari <0>{count}</0> kritiskos triecienus"
+msgstr "Veic <0>{count}</0> kritiskos triecienus"
 
 #: src/components/_layout/LayoutMapOptions.tsx:363
 #: src/components/_user/auth/WelcomeModal.tsx:131
@@ -5681,63 +5681,63 @@ msgstr "Laiks ražot!"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:17
 msgid "Tiny Pixel"
-msgstr ""
+msgstr "Pikselīši"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:95
 msgid "Tiny Pixel Ammo"
-msgstr ""
+msgstr "Zilais Eliksīrs"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:107
 msgid "Tiny Pixel Boots"
-msgstr ""
+msgstr "Dimanta Zābaki"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:104
 msgid "Tiny Pixel Chest"
-msgstr ""
+msgstr "Dimanta Bruņuveste"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:113
 msgid "Tiny Pixel Gloves"
-msgstr ""
+msgstr "Dimanta Cimdi"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:116
 msgid "Tiny Pixel Gun"
-msgstr ""
+msgstr "Dzelzs Zobens"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:98
 msgid "Tiny Pixel Heavy Ammo"
-msgstr ""
+msgstr "Violetais Eliksīrs"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:101
 msgid "Tiny Pixel Helmet"
-msgstr ""
+msgstr "Dimanta Ķivere"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:128
 msgid "Tiny Pixel Jet"
-msgstr ""
+msgstr "Nefrīta Zobens"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:131
 msgid "Tiny Pixel Light Ammo"
-msgstr ""
+msgstr "Zaļais Eliksīrs"
 
 #: src/components/_other/shop/skinPack.frontConfig.tsx:16
 msgid "Tiny Pixel Pack"
-msgstr ""
+msgstr "Pikselīšu Komplekts"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:110
 msgid "Tiny Pixel Pants"
-msgstr ""
+msgstr "Dimanta Bikses"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:119
 msgid "Tiny Pixel Rifle"
-msgstr ""
+msgstr "Zelta Zobens"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:122
 msgid "Tiny Pixel Sniper"
-msgstr ""
+msgstr "Platīna Zobens"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:125
 msgid "Tiny Pixel Tank"
-msgstr ""
+msgstr "Dimanta Zobens"
 
 #: src/components/_user/mission/mission.frontConfig.tsx:288
 msgid "Tip <0>{count}</0> articles"
@@ -6492,15 +6492,15 @@ msgstr "Tev nav pieejas apskatīt pieteikumus."
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1632
 msgid "You earned gems from a banner sale!"
-msgstr ""
+msgstr "Tu saņēmi dārgakmeņus, jo kāds nopirka tavu baneri!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1823
 msgid "You earned gems from a sale of \"{skinTitle}\"!"
-msgstr ""
+msgstr "Tu saņēmi dārgakmeņus, jo kāds nopirka \"{skinTitle}\"!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:1827
 msgid "You earned gems from a skin pack sale!"
-msgstr ""
+msgstr "Tu saņēmi dārgakmeņus, jo kāds nopirka tavu komplektu!"
 
 #: src/components/_user/notification/notification.frontConfig.tsx:874
 msgid "You feel healthy, the debuff effect no longer affects you."
