@@ -1109,7 +1109,7 @@ msgstr "Accept to make peace with the other country"
 msgid "Accepted"
 msgstr "Accepted"
 
-#: src/components/_military/battle/BattleHeader.tsx:93
+#: src/components/_military/battle/BattleHeader.tsx:95
 msgid "Access war"
 msgstr "Access war"
 
@@ -1491,7 +1491,7 @@ msgstr "Attack"
 msgid "Attacker"
 msgstr "Attacker"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:164
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:244
 msgid "Attackers"
 msgstr "Attackers"
 
@@ -1599,7 +1599,7 @@ msgstr "Basic Helmet"
 msgid "Basic Pants"
 msgstr "Basic Pants"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:83
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:109
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:188
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:194
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:108
@@ -1616,7 +1616,7 @@ msgstr "Battle ended"
 msgid "Battle Hero"
 msgstr "Battle Hero"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:220
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:191
 msgid "Battle loots"
 msgstr "Battle loots"
 
@@ -1780,6 +1780,10 @@ msgstr "By continuing, you agree to our <0>Terms of Service</0>."
 #: src/components/_user/worker/WageReductionAlert.tsx:56
 msgid "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
 msgstr "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
+
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:173
+msgid "By side"
+msgstr "By side"
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:26
 msgid "Cadet"
@@ -2357,7 +2361,7 @@ msgstr "Council member to remove"
 msgid "countries"
 msgstr "countries"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:94
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:120
 msgid "Countries"
 msgstr "Countries"
 
@@ -2522,7 +2526,7 @@ msgstr "Damage limit"
 msgid "Damage Limit"
 msgstr "Damage Limit"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:111
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:137
 msgid "Damage ranking"
 msgstr "Damage ranking"
 
@@ -2660,7 +2664,7 @@ msgstr "Defend"
 msgid "Defender"
 msgstr "Defender"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:156
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:241
 msgid "Defenders"
 msgstr "Defenders"
 
@@ -3079,9 +3083,9 @@ msgid "Events"
 msgstr "Events"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/DamageRankingList.tsx:223
-msgid "Every <0/> damage dealt by each side rolls an <1>{0}</1> to its own side's loot pool.<2>On round end, that round's loot pool is distributed: rank 1 receives the most valuable item, rank 2 the next, and so on.</2><3>Additionally, at every round end, the winning side gets an additional roll for the whole battle ranking for every <4/> and the losing side for every <5/> total round damage dealt by their own sides.</3>"
-msgstr "Every <0/> damage dealt by each side rolls an <1>{0}</1> to its own side's loot pool.<2>On round end, that round's loot pool is distributed: rank 1 receives the most valuable item, rank 2 the next, and so on.</2><3>Additionally, at every round end, the winning side gets an additional roll for the whole battle ranking for every <4/> and the losing side for every <5/> total round damage dealt by their own sides.</3>"
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:194
+msgid "Every <0/> total damage dealt across both sides rolls an <1>{0}</1> into the round loot pool.<2>Additionally, every <3/> total battle damage rolls an item into the battle-wide pool.</2><4>On round end, the loot pools are distributed by overall damage rank: rank 1 receives the most valuable item, rank 2 the next, and so on.</4>"
+msgstr "Every <0/> total damage dealt across both sides rolls an <1>{0}</1> into the round loot pool.<2>Additionally, every <3/> total battle damage rolls an item into the battle-wide pool.</2><4>On round end, the loot pools are distributed by overall damage rank: rank 1 receives the most valuable item, rank 2 the next, and so on.</4>"
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
 msgid "Everyone participates automatically"
@@ -3492,7 +3496,7 @@ msgstr "Ground"
 msgid "ground per tick"
 msgstr "ground per tick"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:120
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:146
 msgid "Ground points"
 msgstr "Ground points"
 
@@ -4055,9 +4059,9 @@ msgstr "Looted cases"
 msgid "Looted money"
 msgstr "Looted money"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:249
-msgid "Loots ({side})"
-msgstr "Loots ({side})"
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:218
+msgid "Loots"
+msgstr "Loots"
 
 #: src/components/_other/shop/skin.frontConfig.tsx:20
 msgid "Love Paper Jet"
@@ -4276,7 +4280,7 @@ msgstr "Military Unit"
 msgid "Military unit created"
 msgstr "Military unit created"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:102
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:128
 msgid "Military units"
 msgstr "Military units"
 
@@ -4318,7 +4322,7 @@ msgstr "Mobile phone number"
 msgid "Money"
 msgstr "Money"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:132
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:158
 msgid "Money earned from mercenary contracts."
 msgstr "Money earned from mercenary contracts."
 
@@ -4330,7 +4334,7 @@ msgstr "Money per 1000 damages"
 msgid "Money per 1k Damages"
 msgstr "Money per 1k Damages"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:131
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:157
 msgid "Money ranking"
 msgstr "Money ranking"
 
@@ -4699,7 +4703,7 @@ msgstr "No congress members"
 msgid "No contributions yet"
 msgstr "No contributions yet"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:258
+#: src/components/_military/damageRanking/DamageRankingList.tsx:179
 msgid "No damages ranking yet."
 msgstr "No damages ranking yet."
 
@@ -4707,7 +4711,7 @@ msgstr "No damages ranking yet."
 msgid "No donations yet"
 msgstr "No donations yet"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:260
+#: src/components/_military/damageRanking/DamageRankingList.tsx:181
 msgid "No ground ranking yet."
 msgstr "No ground ranking yet."
 
@@ -4731,7 +4735,7 @@ msgstr "No military units found"
 msgid "No missions available"
 msgstr "No missions available"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:261
+#: src/components/_military/damageRanking/DamageRankingList.tsx:182
 msgid "No money ranking yet."
 msgstr "No money ranking yet."
 
@@ -4877,7 +4881,7 @@ msgstr "Only presidents can register their country"
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Only supporters can see their spending and income breakdown."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:528
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:512
 msgid "Open"
 msgstr "Open"
 
@@ -4885,8 +4889,8 @@ msgstr "Open"
 msgid "Open <0>{count}</0>"
 msgstr "Open <0>{count}</0>"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:87
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:548
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:95
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:532
 msgid "Open case"
 msgstr "Open case"
 
@@ -4958,6 +4962,10 @@ msgstr "Other"
 #: src/components/_political/partyMotion/PartyMotion.tsx:81
 msgid "Outcome"
 msgstr "Outcome"
+
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:180
+msgid "Overall"
+msgstr "Overall"
 
 #: src/components/_user/user/SkillValue.tsx:152
 msgid "Overflow:"
@@ -5911,7 +5919,7 @@ msgstr "Round {0}"
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
 #: src/components/_military/battle/BattleTimelineRound.tsx:88
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:72
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:99
 msgid "Round #{0}"
 msgstr "Round #{0}"
 
@@ -6202,7 +6210,7 @@ msgstr "Settings"
 msgid "Shop"
 msgstr "Shop"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:277
+#: src/components/_military/damageRanking/DamageRankingList.tsx:198
 #: src/components/_social/ArticleTags.tsx:268
 #: src/components/_social/ArticleTags.tsx:319
 #: src/components/_social/ArticleTags.tsx:427
@@ -6366,7 +6374,7 @@ msgstr "Start presidential election"
 msgid "Start revolution"
 msgstr "Start revolution"
 
-#: src/components/_military/battle/BattleHeader.tsx:169
+#: src/components/_military/battle/BattleHeader.tsx:171
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -6854,7 +6862,7 @@ msgstr "total"
 msgid "Total"
 msgstr "Total"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:486
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:470
 msgid "Total cases opened"
 msgstr "Total cases opened"
 
@@ -7164,7 +7172,7 @@ msgstr "User already owns all skins"
 msgid "User blocked"
 msgstr "User blocked"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:121
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:147
 msgid "User participation to the ground points."
 msgstr "User participation to the ground points."
 
@@ -7188,7 +7196,7 @@ msgstr "Username"
 msgid "Username removed"
 msgstr "Username removed"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:87
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:113
 msgid "Users"
 msgstr "Users"
 
@@ -7294,7 +7302,7 @@ msgstr "Vice President"
 msgid "View details"
 msgstr "View details"
 
-#: src/components/_military/battle/BattleHeader.tsx:100
+#: src/components/_military/battle/BattleHeader.tsx:102
 msgid "View on map"
 msgstr "View on map"
 
@@ -8021,7 +8029,7 @@ msgstr "Your premium subscription has been activated!"
 msgid "Your premium subscription has expired!"
 msgstr "Your premium subscription has expired!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:283
+#: src/components/_military/damageRanking/DamageRankingList.tsx:204
 msgid "Your rank"
 msgstr "Your rank"
 

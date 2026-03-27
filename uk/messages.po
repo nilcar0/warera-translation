@@ -1109,7 +1109,7 @@ msgstr "Прийміть аби укласти мир з іншою держав
 msgid "Accepted"
 msgstr "Прийнято"
 
-#: src/components/_military/battle/BattleHeader.tsx:93
+#: src/components/_military/battle/BattleHeader.tsx:95
 msgid "Access war"
 msgstr "Перейти до війни"
 
@@ -1491,7 +1491,7 @@ msgstr "Атака"
 msgid "Attacker"
 msgstr "Нападник"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:164
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:244
 msgid "Attackers"
 msgstr "Нападники"
 
@@ -1599,7 +1599,7 @@ msgstr "Базовий шолом"
 msgid "Basic Pants"
 msgstr "Базові штани"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:83
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:109
 #: src/components/_military/mercenaryContract/CreateMercenaryProposalModal.tsx:188
 #: src/components/_military/mercenaryContract/MercenaryContractModal.tsx:194
 #: src/components/_military/mercenaryContract/MercenaryProposalItem.tsx:108
@@ -1616,7 +1616,7 @@ msgstr "Битва закінчилась"
 msgid "Battle Hero"
 msgstr "Герой битви"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:220
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:191
 msgid "Battle loots"
 msgstr ""
 
@@ -1780,6 +1780,10 @@ msgstr "Продовжуючи, ви погоджуєтесь з нашими <0
 #: src/components/_user/worker/WageReductionAlert.tsx:56
 msgid "By rejecting the wage reduction, you will leave the company and lose your fidelity bonus of +{0}%."
 msgstr "Відхиливши зменшення зарплатні, ви покинете фабрику та втратите бонус вірності +{0}%."
+
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:173
+msgid "By side"
+msgstr ""
 
 #: src/components/_user/user/militaryRankings.frontConfig.tsx:26
 msgid "Cadet"
@@ -2357,7 +2361,7 @@ msgstr "Член ради, якого треба прибрати"
 msgid "countries"
 msgstr "держав"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:94
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:120
 msgid "Countries"
 msgstr "Держави"
 
@@ -2522,7 +2526,7 @@ msgstr "Ліміт шкоди"
 msgid "Damage Limit"
 msgstr "Ліміт шкоди"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:111
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:137
 msgid "Damage ranking"
 msgstr "Рейтинг за завданою шкодою"
 
@@ -2660,7 +2664,7 @@ msgstr "Оборона"
 msgid "Defender"
 msgstr "Оборонець"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:156
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:241
 msgid "Defenders"
 msgstr "Оборонці"
 
@@ -3079,8 +3083,8 @@ msgid "Events"
 msgstr "Події"
 
 #. placeholder {0}: ts.case2
-#: src/components/_military/damageRanking/DamageRankingList.tsx:223
-msgid "Every <0/> damage dealt by each side rolls an <1>{0}</1> to its own side's loot pool.<2>On round end, that round's loot pool is distributed: rank 1 receives the most valuable item, rank 2 the next, and so on.</2><3>Additionally, at every round end, the winning side gets an additional roll for the whole battle ranking for every <4/> and the losing side for every <5/> total round damage dealt by their own sides.</3>"
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:194
+msgid "Every <0/> total damage dealt across both sides rolls an <1>{0}</1> into the round loot pool.<2>Additionally, every <3/> total battle damage rolls an item into the battle-wide pool.</2><4>On round end, the loot pools are distributed by overall damage rank: rank 1 receives the most valuable item, rank 2 the next, and so on.</4>"
 msgstr ""
 
 #: src/pages/tournament/[tournamentId]/index.tsx:42
@@ -3492,7 +3496,7 @@ msgstr "Бали контролю"
 msgid "ground per tick"
 msgstr "контролю за такт"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:120
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:146
 msgid "Ground points"
 msgstr "Бали контролю"
 
@@ -4055,8 +4059,8 @@ msgstr "Отримані кейси"
 msgid "Looted money"
 msgstr "Отримані гроші"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:249
-msgid "Loots ({side})"
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:218
+msgid "Loots"
 msgstr ""
 
 #: src/components/_other/shop/skin.frontConfig.tsx:20
@@ -4276,7 +4280,7 @@ msgstr "Військовий підрозділ"
 msgid "Military unit created"
 msgstr "Підрозділ створено"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:102
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:128
 msgid "Military units"
 msgstr "Військові підрозділи"
 
@@ -4318,7 +4322,7 @@ msgstr "Номер мобільного телефону"
 msgid "Money"
 msgstr "Кошти"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:132
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:158
 msgid "Money earned from mercenary contracts."
 msgstr "Монети, отримані з наймитських контрактів."
 
@@ -4330,7 +4334,7 @@ msgstr "Монет за 1,000 шкоди"
 msgid "Money per 1k Damages"
 msgstr "Монет за 1 тис. шкоди"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:131
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:157
 msgid "Money ranking"
 msgstr "Грошовий рейтинг"
 
@@ -4699,7 +4703,7 @@ msgstr "Парламентарів немає"
 msgid "No contributions yet"
 msgstr "Пожертв ще немає"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:258
+#: src/components/_military/damageRanking/DamageRankingList.tsx:179
 msgid "No damages ranking yet."
 msgstr "Рейтингу за шкодою ще немає."
 
@@ -4707,7 +4711,7 @@ msgstr "Рейтингу за шкодою ще немає."
 msgid "No donations yet"
 msgstr "Пожертв ще немає"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:260
+#: src/components/_military/damageRanking/DamageRankingList.tsx:181
 msgid "No ground ranking yet."
 msgstr "Рейтингу за балами контролю ще немає."
 
@@ -4731,7 +4735,7 @@ msgstr "Підрозділи не знайдено"
 msgid "No missions available"
 msgstr "Немає доступних місій"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:261
+#: src/components/_military/damageRanking/DamageRankingList.tsx:182
 msgid "No money ranking yet."
 msgstr "Грошового рейтингу ще немає."
 
@@ -4877,7 +4881,7 @@ msgstr "Тільки президент може зареєструвати кр
 msgid "Only supporters can see their spending and income breakdown."
 msgstr "Тільки підписники можуть бачити розбір їх витрат та доходів."
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:528
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:512
 msgid "Open"
 msgstr "Відкрити"
 
@@ -4885,8 +4889,8 @@ msgstr "Відкрити"
 msgid "Open <0>{count}</0>"
 msgstr "Відкрийте <0>{count}</0>"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:87
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:548
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:95
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:532
 msgid "Open case"
 msgstr "Відкрити кейс"
 
@@ -4958,6 +4962,10 @@ msgstr "Інше"
 #: src/components/_political/partyMotion/PartyMotion.tsx:81
 msgid "Outcome"
 msgstr "Результат"
+
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:180
+msgid "Overall"
+msgstr ""
 
 #: src/components/_user/user/SkillValue.tsx:152
 msgid "Overflow:"
@@ -5911,7 +5919,7 @@ msgstr "Раунд {0}"
 #. placeholder {0}: (roundIndex ?? 0) + 1
 #. placeholder {0}: i + 1
 #: src/components/_military/battle/BattleTimelineRound.tsx:88
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:72
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:99
 msgid "Round #{0}"
 msgstr "Раунд #{0}"
 
@@ -6202,7 +6210,7 @@ msgstr "Налаштування"
 msgid "Shop"
 msgstr "Магазин"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:277
+#: src/components/_military/damageRanking/DamageRankingList.tsx:198
 #: src/components/_social/ArticleTags.tsx:268
 #: src/components/_social/ArticleTags.tsx:319
 #: src/components/_social/ArticleTags.tsx:427
@@ -6366,7 +6374,7 @@ msgstr "Почати президентські вибори"
 msgid "Start revolution"
 msgstr "Розпочати революцію"
 
-#: src/components/_military/battle/BattleHeader.tsx:169
+#: src/components/_military/battle/BattleHeader.tsx:171
 #: src/components/_military/war/WarHeader.tsx:61
 #: src/components/_military/war/WarItem.tsx:108
 msgid "Started <0/>"
@@ -6854,7 +6862,7 @@ msgstr "всього"
 msgid "Total"
 msgstr "Всього"
 
-#: src/components/_economy/inventory/case/OpenCaseModal.tsx:486
+#: src/components/_economy/inventory/case/OpenCaseModal.tsx:470
 msgid "Total cases opened"
 msgstr "кейсів відкрито"
 
@@ -7164,7 +7172,7 @@ msgstr "Користувач вже володіє усіма скінами"
 msgid "User blocked"
 msgstr "Користувача заблоковано"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:121
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:147
 msgid "User participation to the ground points."
 msgstr "Внесок користувача у бали контролю."
 
@@ -7188,7 +7196,7 @@ msgstr "Прізвисько"
 msgid "Username removed"
 msgstr "Прізвисько прибрано"
 
-#: src/components/_military/damageRanking/DamageRankingSides.tsx:87
+#: src/components/_military/damageRanking/DamageRankingSides.tsx:113
 msgid "Users"
 msgstr "Користувачі"
 
@@ -7294,7 +7302,7 @@ msgstr "Віцепрезидент"
 msgid "View details"
 msgstr "Переглянути деталі"
 
-#: src/components/_military/battle/BattleHeader.tsx:100
+#: src/components/_military/battle/BattleHeader.tsx:102
 msgid "View on map"
 msgstr "Побачити на мапі"
 
@@ -8021,7 +8029,7 @@ msgstr "Ваша підписка була активована!"
 msgid "Your premium subscription has expired!"
 msgstr "Ваша підписка скінчилась!"
 
-#: src/components/_military/damageRanking/DamageRankingList.tsx:283
+#: src/components/_military/damageRanking/DamageRankingList.tsx:204
 msgid "Your rank"
 msgstr "Ваш ранг"
 
